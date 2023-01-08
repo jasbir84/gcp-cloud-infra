@@ -8,8 +8,8 @@ terragrunt = {
   }
 }
 
-project = "gke-preprod"
-cluster_name = "gke-preprod-cluster"
+project = "gke-nonprod"
+cluster_name = "gke-nonprod-cluster"
 node_count = 1
 max_node_count = 3
 min_node_count = 1
