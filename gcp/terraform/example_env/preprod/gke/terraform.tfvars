@@ -4,18 +4,18 @@ terragrunt = {
   }
 
   terraform {
-    source = "git::ssh://git@github.com/osones/cloud-infra.git//gcp/terraform/modules/gke"
+    source = "git::ssh://git@github.com/jasbir84/cloud-infra.git//gcp/terraform/modules/gke"
   }
 }
 
-project = "gke-blog-preprod"
-cluster_name = "gke-blog-preprod"
+project = "gke-preprod"
+cluster_name = "gke-preprod-cluster"
 node_count = 1
 max_node_count = 3
 min_node_count = 1
 node_count = 1
 admin_username = "admin"
-admin_password = "200791-76f9-4c70-afd7-5b7b7be1c46e"
+admin_password = "jassi123"
 machine_type = "n1-standard-1"
 disk_size_gb = "100"
 master_zone = "europe-west1-b"
